@@ -429,35 +429,6 @@ const translations = {
 
 };
 
-/* Imported project media and links from the reference portfolio package. */
-Object.assign(projectDetails, {
-    stp: {
-        images: ["assets/projects/stp-analytics.jpg"],
-        link: "https://zahradev1991.github.io/stp-analysis-tool/"
-    },
-    school: {
-        images: ["assets/projects/school-system.jpg"]
-    },
-    translator: {
-        images: ["assets/projects/ai-voice.jpg"],
-        link: "https://azizi1991.github.io/FA-EN/"
-    },
-    migration: {
-        images: ["assets/projects/migrate-ai.jpg", "assets/projects/migrate-ai-2.jpg", "assets/projects/migrate-ai-3.jpg"]
-    },
-    qr: {
-        images: ["assets/projects/qr-menu.jpg", "assets/projects/qr-menu-2.jpg", "assets/projects/qr-menu-3.jpg"],
-        link: "https://qrmenu.rashasoftware.ir/"
-    },
-    booking: {
-        images: ["assets/projects/reserve-script.jpg", "assets/projects/reserve-script-2.jpg", "assets/projects/reserve-script-3.jpg"],
-        link: "https://reserve.rashasoftware.ir/"
-    },
-    momtime: {},
-    injaunja: {}
-});
-
-
 /* =====================================================
    PROJECT DETAILS
 ===================================================== */
