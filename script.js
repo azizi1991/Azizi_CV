@@ -146,6 +146,24 @@ const translations = {
                 title: "Online Booking System",
                 description:
                     "Fast booking platform with management panel and automated workflow."
+            },
+
+            momtime: {
+                title: "MomTime",
+                description:
+                    "A practical family and health management application for mothers."
+            },
+
+            telegram: {
+                title: "Telegram Bots",
+                description:
+                    "Automated Telegram bots for reservations, support and customer communication."
+            },
+
+            injaunja: {
+                title: "InjaUnja",
+                description:
+                    "A bilingual platform with reservation workflows, dashboards and analytics."
             }
 
         },
@@ -197,24 +215,24 @@ const translations = {
         },
 
         hero: {
-            available: "آماده همکاری روی پروژه‌های منتخب",
-            kicker: "توسعه‌دهنده فول‌استک · سازنده محصول · هوش مصنوعی",
+            available: "آماده ساختن تجربه‌های دیجیتال متمایز",
+            kicker: "توسعه‌دهنده فول‌استک · سازنده محصول · متخصص راهکارهای هوشمند",
             title1: "من",
             title2: "محصولات دیجیتال",
             title3: "را از ایده تا MVP می‌سازم.",
             subtitle:
-                "توسعه‌دهنده فول‌استک و سازنده محصول با بیش از ۵ سال تجربه در تبدیل مسائل واقعی کسب‌وکار به راهکارهای دیجیتال کاربردی و مقیاس‌پذیر.",
-            viewWork: "مشاهده نمونه‌کارها",
-            downloadCV: "دانلود رزومه"
+                "توسعه‌دهنده فول‌استک و سازنده محصول با بیش از ۵ سال تجربه در تبدیل چالش‌های واقعی کسب‌وکار به محصولات دیجیتال کاربردی، زیبا و مقیاس‌پذیر.",
+            viewWork: "دیدن پروژه‌های منتخب",
+            downloadCV: "دریافت رزومه"
         },
 
         about: {
             title: "درباره من",
-            subtitle: "من فقط کد نمی‌زنم؛ محصول می‌سازم.",
+            subtitle: "از یک مسئله واقعی تا یک محصول قابل استفاده.",
             description1:
-                "من توسعه‌دهنده فول‌استک، سازنده محصول و تحلیلگر کسب‌وکار هستم و تمرکزم تبدیل مسائل واقعی کسب‌وکار به محصولات دیجیتال کاربردی است.",
+                "من توسعه‌دهنده فول‌استک، سازنده محصول و تحلیلگر کسب‌وکار هستم؛ کسی که ایده‌ها را به تجربه‌هایی روشن، کاربردی و قابل رشد تبدیل می‌کند.",
             description2:
-                "رویکرد من ترکیبی از توسعه نرم‌افزار، تفکر محصول، تحلیل UX/UI و استفاده از هوش مصنوعی برای حرکت سریع از ایده به یک MVP قابل استفاده است.",
+                "با ترکیب مهندسی نرم‌افزار، تفکر محصول، طراحی تجربه کاربری و هوش مصنوعی، مسیر ایده تا MVP را کوتاه‌تر و هوشمندانه‌تر می‌کنم.",
             feature1: "تفکر محصول‌محور",
             feature2: "توسعه سریع MVP",
             feature3: "توسعه با کمک هوش مصنوعی"
@@ -230,19 +248,19 @@ const translations = {
         experience: {
             title: "تجربه حرفه‌ای",
             subtitle:
-                "تجربه در ساخت محصول، فناوری، کسب‌وکار و هوش مصنوعی.",
+                "تجربه‌ای متمرکز بر ساخت محصول، حل مسئله و ایجاد ارزش واقعی.",
 
             freelance: {
-                title: "فریلنسر — توسعه‌دهنده فول‌استک و سازنده محصول",
+                title: "توسعه‌دهنده فول‌استک و سازنده محصول",
                 company: "پروژه‌های مستقل و سازمانی",
                 item1:
-                    "طراحی و توسعه سیستم مدیریت مدرسه، CRM و اتوماسیون.",
+                    "طراحی و توسعه سامانه‌های مدیریت مدرسه، CRM و اتوماسیون فرآیندها.",
                 item2:
-                    "طراحی سیستم‌های رزرو، پرداخت و پنل‌های مدیریتی.",
+                    "ساخت پلتفرم‌های رزرو، پرداخت و پنل‌های مدیریتی با تمرکز بر تجربه کاربر.",
                 item3:
-                    "توسعه محصولات و MVPهای مبتنی بر هوش مصنوعی.",
+                    "توسعه محصولات و MVPهای هوشمند برای اعتبارسنجی سریع ایده‌ها.",
                 item4:
-                    "فعالیت از مرحله تحلیل نیازمندی تا توسعه، استقرار و پشتیبانی."
+                    "همراهی از تحلیل نیازمندی و طراحی راهکار تا توسعه، استقرار و پشتیبانی."
             },
 
             community: {
@@ -281,8 +299,8 @@ const translations = {
         projects: {
             title: "پروژه‌های منتخب",
             subtitle:
-                "از حل مسئله کسب‌وکار تا ساخت محصول واقعی.",
-            view: "مشاهده Case Study"
+                "نمونه‌هایی از تبدیل مسئله‌های واقعی به محصولات قابل استفاده.",
+            view: "مشاهده جزئیات پروژه"
         },
 
         project: {
@@ -321,6 +339,24 @@ const translations = {
                 title: "سیستم رزرو آنلاین",
                 description:
                     "سامانه رزرو آنلاین سریع با پنل مدیریت و فرآیندهای خودکار."
+            },
+
+            momtime: {
+                title: "MomTime",
+                description:
+                    "اپلیکیشن مدیریت زمان، خانواده و سلامت برای مادران."
+            },
+
+            telegram: {
+                title: "ربات‌های تلگرام",
+                description:
+                    "ربات‌های خودکار تلگرام برای رزرو، پشتیبانی و ارتباط با مشتری."
+            },
+
+            injaunja: {
+                title: "InjaUnja",
+                description:
+                    "پلتفرم دوزبانه با فرآیند رزرو، داشبورد مدیریتی و گزارش‌های تحلیلی."
             }
 
         },
@@ -332,7 +368,7 @@ const translations = {
         education: {
             title: "تحصیلات و گواهینامه‌ها",
             subtitle:
-                "یادگیری مستمر در حوزه نرم‌افزار، هوش مصنوعی و کسب‌وکار.",
+                "یادگیری مستمر برای ساخت راهکارهای بهتر، دقیق‌تر و آینده‌نگر.",
             degree: "کارشناسی ارشد",
             master: "مهندسی نرم‌افزار",
             dba: "مدیریت حرفه‌ای کسب‌وکار",
@@ -340,11 +376,11 @@ const translations = {
         },
 
         contact: {
-            title: "بیایید چیزی بسازیم",
+            title: "بیایید یک تجربه ماندگار بسازیم",
             subtitle:
                 "ایده، محصول یا مسئله‌ای برای حل کردن دارید؟",
             description:
-                "به پروژه‌های معنادار، توسعه محصول، راهکارهای مبتنی بر هوش مصنوعی و فرصت‌هایی که فناوری بتواند ارزش واقعی ایجاد کند علاقه‌مندم.",
+                "اگر ایده‌ای دارید که می‌تواند به یک محصول واقعی تبدیل شود، خوشحال می‌شوم درباره مسیر ساخت، بهبود و رشد آن با شما گفت‌وگو کنم.",
             name: "نام شما",
             email: "ایمیل",
             message: "پیام",
@@ -356,9 +392,70 @@ const translations = {
                 "توسعه‌دهنده فول‌استک · سازنده محصول · هوش مصنوعی"
         }
 
+    },
+
+    momtime: {
+        category: "Mobile · Health · MVP",
+        technologies: ["Mobile UI", "Health Tech", "MVP", "Product Design"],
+        role: { en: "Product Builder", fa: "سازنده محصول" },
+        result: {
+            en: "A focused mobile experience for organizing family routines and personal health records.",
+            fa: "یک تجربه موبایلی برای مدیریت برنامه‌های خانواده و سوابق سلامت."
+        },
+        images: ["assets/projects/momtime.jpg", "assets/projects/momtime-3.jpg", "assets/projects/momtime-4.jpg", "assets/projects/momtime-5.jpg"]
+    },
+
+    telegram: {
+        category: "Automation · Customer Support",
+        technologies: ["Telegram API", "Automation", "PHP", "Customer Support"],
+        role: { en: "Automation Developer", fa: "توسعه‌دهنده اتوماسیون" },
+        result: {
+            en: "Automated reservation and support flows that improve response time and customer experience.",
+            fa: "فرآیندهای خودکار رزرو و پشتیبانی برای بهبود سرعت پاسخ‌گویی و تجربه مشتری."
+        },
+        images: ["assets/projects/telegram-bots.jpg"]
+    },
+
+    injaunja: {
+        category: "Platform · Analytics · SaaS",
+        technologies: ["Laravel", "Vue.js", "Dashboards", "Analytics"],
+        role: { en: "Full-Stack Developer & Product Designer", fa: "توسعه‌دهنده فول‌استک و طراح محصول" },
+        result: {
+            en: "A bilingual platform experience combining reservations, operational dashboards and analytics.",
+            fa: "پلتفرم دوزبانه با ترکیب رزرو، داشبوردهای عملیاتی و تحلیل داده."
+        },
+        images: ["assets/projects/injaunja.jpg", "assets/projects/injaunja2.jpg"]
     }
 
 };
+
+/* Imported project media and links from the reference portfolio package. */
+Object.assign(projectDetails, {
+    stp: {
+        images: ["assets/projects/stp-analytics.jpg"],
+        link: "https://zahradev1991.github.io/stp-analysis-tool/"
+    },
+    school: {
+        images: ["assets/projects/school-system.jpg"]
+    },
+    translator: {
+        images: ["assets/projects/ai-voice.jpg"],
+        link: "https://azizi1991.github.io/FA-EN/"
+    },
+    migration: {
+        images: ["assets/projects/migrate-ai.jpg", "assets/projects/migrate-ai-2.jpg", "assets/projects/migrate-ai-3.jpg"]
+    },
+    qr: {
+        images: ["assets/projects/qr-menu.jpg", "assets/projects/qr-menu-2.jpg", "assets/projects/qr-menu-3.jpg"],
+        link: "https://qrmenu.rashasoftware.ir/"
+    },
+    booking: {
+        images: ["assets/projects/reserve-script.jpg", "assets/projects/reserve-script-2.jpg", "assets/projects/reserve-script-3.jpg"],
+        link: "https://reserve.rashasoftware.ir/"
+    },
+    momtime: {},
+    injaunja: {}
+});
 
 
 /* =====================================================
@@ -366,6 +463,39 @@ const translations = {
 ===================================================== */
 
 const projectDetails = {
+
+    momtime: {
+        category: "Mobile · Health · MVP",
+        technologies: ["Mobile UI", "Health Tech", "MVP", "Product Design"],
+        role: { en: "Product Builder", fa: "سازنده محصول" },
+        result: {
+            en: "A focused mobile experience for organizing family routines and personal health records.",
+            fa: "یک تجربه موبایلی برای مدیریت برنامه‌های خانواده و سوابق سلامت."
+        },
+        images: ["assets/projects/momtime.jpg", "assets/projects/momtime-3.jpg", "assets/projects/momtime-4.jpg", "assets/projects/momtime-5.jpg"]
+    },
+
+    telegram: {
+        category: "Automation · Customer Support",
+        technologies: ["Telegram API", "Automation", "PHP", "Customer Support"],
+        role: { en: "Automation Developer", fa: "توسعه‌دهنده اتوماسیون" },
+        result: {
+            en: "Automated reservation and support flows that improve response time and customer experience.",
+            fa: "فرآیندهای خودکار رزرو و پشتیبانی برای بهبود سرعت پاسخ‌گویی و تجربه مشتری."
+        },
+        images: ["assets/projects/telegram-bots.jpg"]
+    },
+
+    injaunja: {
+        category: "Platform · Analytics · SaaS",
+        technologies: ["Laravel", "Vue.js", "Dashboards", "Analytics"],
+        role: { en: "Full-Stack Developer & Product Designer", fa: "توسعه‌دهنده فول‌استک و طراح محصول" },
+        result: {
+            en: "A bilingual platform experience combining reservations, operational dashboards and analytics.",
+            fa: "پلتفرم دوزبانه با ترکیب رزرو، داشبوردهای عملیاتی و تحلیل داده."
+        },
+        images: ["assets/projects/injaunja.jpg", "assets/projects/injaunja2.jpg"]
+    },
 
     stp: {
 
@@ -633,6 +763,13 @@ function setLanguage(language) {
 
     translatePage();
 
+    document.querySelectorAll(".lang-btn").forEach(button => {
+        button.setAttribute(
+            "aria-pressed",
+            button.dataset.lang === currentLanguage ? "true" : "false"
+        );
+    });
+
 }
 
 
@@ -643,6 +780,11 @@ function setLanguage(language) {
 document
     .querySelectorAll(".lang-btn")
     .forEach(button => {
+
+        button.setAttribute(
+            "aria-pressed",
+            button.dataset.lang === currentLanguage ? "true" : "false"
+        );
 
         button.addEventListener(
             "click",
@@ -899,6 +1041,24 @@ function openProject(projectId) {
 
     let techHTML = "";
 
+    let mediaHTML = "";
+
+    if (projectId === "stp") {
+        mediaHTML = `
+            <div class="modal-media">
+                <video controls preload="metadata" poster="assets/projects/stp-analytics.jpg">
+                    <source src="assets/projects/STP.mp4" type="video/mp4">
+                </video>
+            </div>
+        `;
+    } else if (project.images && project.images.length) {
+        mediaHTML = `
+            <div class="modal-gallery">
+                ${project.images.map(image => `<img src="${image}" alt="${projectTranslation.title}" loading="lazy">`).join("")}
+            </div>
+        `;
+    }
+
     project.technologies
         .forEach(technology => {
 
@@ -928,6 +1088,8 @@ function openProject(projectId) {
 
 
     modalBody.innerHTML = `
+
+        ${mediaHTML}
 
         <span class="modal-category">
             ${project.category}
@@ -1221,3 +1383,66 @@ document.getElementById(
 createParticles();
 
 translatePage();
+
+/* =====================================================
+   PROJECT FILTERS
+===================================================== */
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projectCards = document.querySelectorAll(".project-card");
+
+filterButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const filter = button.dataset.filter;
+
+        filterButtons.forEach(item => {
+            item.classList.toggle("active", item === button);
+        });
+
+        projectCards.forEach(card => {
+            const categories = (card.dataset.category || "").split(" ");
+            const shouldShow =
+                filter === "all" || categories.includes(filter);
+
+            card.classList.toggle("is-hidden", !shouldShow);
+        });
+
+    });
+
+});
+
+/* =====================================================
+   CERTIFICATE LIGHTBOX
+===================================================== */
+
+const certificateLightbox = document.getElementById("certificateLightbox");
+const certificateLightboxImage = document.getElementById("certificateLightboxImage");
+const certificateLightboxClose = document.querySelector(".certificate-lightbox-close");
+
+function closeCertificateLightbox() {
+    if (!certificateLightbox) return;
+    certificateLightbox.classList.remove("active");
+    certificateLightbox.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+}
+
+document.querySelectorAll(".cert-thumb").forEach(image => {
+    image.addEventListener("click", () => {
+        certificateLightboxImage.src = image.src;
+        certificateLightboxImage.alt = image.alt;
+        certificateLightbox.classList.add("active");
+        certificateLightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+    });
+});
+
+certificateLightboxClose?.addEventListener("click", closeCertificateLightbox);
+certificateLightbox?.addEventListener("click", event => {
+    if (event.target === certificateLightbox) closeCertificateLightbox();
+});
+
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeCertificateLightbox();
+});

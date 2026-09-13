@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Zahra Darziyan Azizi — Full-Stack Developer, Product Builder and AI-focused Developer">
+          content="Zahra  Azizi — Full-Stack Developer, Product Builder and AI-focused Developer">
 
-    <meta name="author" content="Zahra Darziyan Azizi">
+    <meta name="author" content="Zahra  Azizi">
 
-    <title>Zahra Darziyan Azizi | Full-Stack Developer & Product Builder</title>
+    <title>Zahra  Azizi | Full-Stack Developer & Product Builder</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
         <div class="nav-wrapper">
 
             <a href="#home" class="logo">
-                <span class="logo-main">Zahra</span><span class="logo-dot">.</span>dev
+                <span class="logo-main">Zahra Azizi</span><span class="logo-dot">.</span>dev
             </a>
 
             <ul class="nav-menu" id="navMenu">
@@ -98,12 +98,16 @@
                 <div class="language-switcher">
 
                     <button class="lang-btn"
-                            data-lang="fa">
+                            type="button"
+                            data-lang="fa"
+                            aria-label="تغییر زبان به فارسی">
                         فا
                     </button>
 
                     <button class="lang-btn active"
-                            data-lang="en">
+                            type="button"
+                            data-lang="en"
+                            aria-label="Switch language to English">
                         EN
                     </button>
 
@@ -206,7 +210,7 @@
 
                 </a>
 
-                <a href="cv/Zahra-Darziyan-Azizi-EN.pdf"
+                <a href="resume.pdf"
                    class="btn btn-secondary"
                    target="_blank"
                    data-i18n="hero.downloadCV">
@@ -334,6 +338,8 @@
             <div class="about-main-card">
 
                 <div class="card-line"></div>
+
+                <img class="profile-photo" src="assets/profile.jpg" alt="Zahra Azizi" loading="lazy">
 
                 <div class="about-icon">
 
@@ -887,6 +893,13 @@
 
         </div>
 
+        <div class="project-filters" role="group" aria-label="Project filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="ai">AI & Data</button>
+            <button class="filter-btn" type="button" data-filter="fullstack">Full-Stack</button>
+            <button class="filter-btn" type="button" data-filter="mvp">MVP</button>
+        </div>
+
 
         <div class="projects-grid" id="projectsGrid">
 
@@ -894,7 +907,12 @@
             <!-- PROJECT 1 -->
 
             <article class="project-card"
-                     data-project="stp">
+                     data-project="stp"
+                     data-category="ai mvp">
+
+                <div class="project-preview">
+                    <img src="assets/projects/stp-analytics.jpg" alt="STP Analysis Tool preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     01
@@ -936,7 +954,12 @@
             <!-- PROJECT 2 -->
 
             <article class="project-card"
-                     data-project="school">
+                     data-project="school"
+                     data-category="fullstack">
+
+                <div class="project-preview">
+                    <img src="assets/projects/school-system.jpg" alt="School Management System preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     02
@@ -978,7 +1001,12 @@
             <!-- PROJECT 3 -->
 
             <article class="project-card"
-                     data-project="translator">
+                     data-project="translator"
+                     data-category="ai mvp">
+
+                <div class="project-preview">
+                    <img src="assets/projects/ai-voice.jpg" alt="AI Voice Translator preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     03
@@ -1020,7 +1048,12 @@
             <!-- PROJECT 4 -->
 
             <article class="project-card"
-                     data-project="migration">
+                     data-project="migration"
+                     data-category="ai mvp">
+
+                <div class="project-preview">
+                    <img src="assets/projects/migrate-ai.jpg" alt="AI Migration Assistant preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     04
@@ -1062,7 +1095,12 @@
             <!-- PROJECT 5 -->
 
             <article class="project-card"
-                     data-project="qr">
+                     data-project="qr"
+                     data-category="fullstack mvp">
+
+                <div class="project-preview">
+                    <img src="assets/projects/qr-menu.jpg" alt="QR Restaurant Menu preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     05
@@ -1104,7 +1142,12 @@
             <!-- PROJECT 6 -->
 
             <article class="project-card"
-                     data-project="booking">
+                     data-project="booking"
+                     data-category="fullstack">
+
+                <div class="project-preview">
+                    <img src="assets/projects/reserve-script.jpg" alt="Online Booking System preview" loading="lazy">
+                </div>
 
                 <div class="project-number">
                     06
@@ -1140,6 +1183,48 @@
                     →
                 </button>
 
+            </article>
+
+            <!-- PROJECT 7 -->
+            <article class="project-card" data-project="momtime" data-category="mvp fullstack">
+                <div class="project-preview">
+                    <img src="assets/projects/momtime.jpg" alt="MomTime application preview" loading="lazy">
+                </div>
+                <div class="project-number">07</div>
+                <div class="project-icon">♥</div>
+                <span class="project-category">Mobile · Health · MVP</span>
+                <h3 data-i18n="project.momtime.title">MomTime</h3>
+                <p data-i18n="project.momtime.description">A practical family and health management application for mothers.</p>
+                <div class="project-tags"><span>Mobile</span><span>Health</span><span>MVP</span></div>
+                <button class="project-more"><span data-i18n="projects.view">View Case Study</span> →</button>
+            </article>
+
+            <!-- PROJECT 8 -->
+            <article class="project-card" data-project="telegram" data-category="ai fullstack">
+                <div class="project-preview">
+                    <img src="assets/projects/telegram-bots.jpg" alt="Telegram bots project preview" loading="lazy">
+                </div>
+                <div class="project-number">08</div>
+                <div class="project-icon">✈</div>
+                <span class="project-category">Automation · Customer Support</span>
+                <h3 data-i18n="project.telegram.title">Telegram Bots</h3>
+                <p data-i18n="project.telegram.description">Automated Telegram bots for reservations, support and customer communication.</p>
+                <div class="project-tags"><span>Telegram API</span><span>Automation</span><span>PHP</span></div>
+                <button class="project-more"><span data-i18n="projects.view">View Case Study</span> →</button>
+            </article>
+
+            <!-- PROJECT 9 -->
+            <article class="project-card" data-project="injaunja" data-category="fullstack">
+                <div class="project-preview">
+                    <img src="assets/projects/injaunja.jpg" alt="InjaUnja platform preview" loading="lazy">
+                </div>
+                <div class="project-number">09</div>
+                <div class="project-icon">⌖</div>
+                <span class="project-category">Platform · Analytics · SaaS</span>
+                <h3 data-i18n="project.injaunja.title">InjaUnja</h3>
+                <p data-i18n="project.injaunja.description">A bilingual platform with reservation workflows, dashboards and analytics.</p>
+                <div class="project-tags"><span>Laravel</span><span>Vue.js</span><span>Analytics</span></div>
+                <button class="project-more"><span data-i18n="projects.view">View Case Study</span> →</button>
             </article>
 
         </div>
@@ -1220,6 +1305,10 @@
                     Parsa University
                 </p>
 
+                <p class="education-description">
+                    Focus on software design, database systems and application development. Thesis: optimization of educational data systems and process automation.
+                </p>
+
                 <span class="edu-date">
                     2015 — 2017
                 </span>
@@ -1243,6 +1332,10 @@
                     University of Tehran
                 </p>
 
+                <p class="education-description">
+                    Focus on AI-driven business strategy, digital transformation and innovation management. Research interest: applying AI and data analytics to optimize business processes and decision-making.
+                </p>
+
                 <span class="edu-date">
                     2024 — 2025
                 </span>
@@ -1264,37 +1357,49 @@
                 <div class="cert-item">
                     <span>01</span>
                     <strong>CS50x</strong>
+                    <img class="cert-thumb" src="assets/certificates/CS50x.jpg" alt="CS50x certificate" loading="lazy">
                     <small>HarvardX / edX · 2025</small>
+                    <p class="cert-description">Computer science fundamentals, algorithms, data structures and practical projects in C, Python and web development.</p>
                 </div>
 
                 <div class="cert-item">
                     <span>02</span>
                     <strong>Machine Learning</strong>
+                    <img class="cert-thumb" src="assets/certificates/machine-learning-cert.jpg" alt="Machine Learning certificate" loading="lazy">
                     <small>DataCamp · 2024</small>
+                    <p class="cert-description">Supervised and unsupervised learning, model evaluation and practical implementation with Python, scikit-learn, pandas and NumPy.</p>
                 </div>
 
                 <div class="cert-item">
                     <span>03</span>
                     <strong>Data Science</strong>
+                    <img class="cert-thumb" src="assets/certificates/data-science-cert.jpg" alt="Data Science certificate" loading="lazy">
                     <small>DataCamp · 2024</small>
+                    <p class="cert-description">Data visualization, analysis and predictive modeling with case studies in data-driven business decisions.</p>
                 </div>
 
                 <div class="cert-item">
                     <span>04</span>
                     <strong>AI Fundamentals</strong>
+                    <img class="cert-thumb" src="assets/certificates/microsoft-ai-cert.jpg" alt="Microsoft AI certificate" loading="lazy">
                     <small>Microsoft Learn · 2025</small>
+                    <p class="cert-description">Introduction to neural networks, machine learning, responsible AI practices and Microsoft AI tools.</p>
                 </div>
 
                 <div class="cert-item">
                     <span>05</span>
                     <strong>Platform Engineering</strong>
+                    <img class="cert-thumb" src="assets/certificates/microsoft-platform-cert.jpg" alt="Microsoft Platform Engineering certificate" loading="lazy">
                     <small>Microsoft Learn · 2025</small>
+                    <p class="cert-description">Modern software architecture, scalable systems, DevOps practices and continuous deployment.</p>
                 </div>
 
                 <div class="cert-item">
                     <span>06</span>
                     <strong>Prompt Design in Vertex AI</strong>
+                    <img class="cert-thumb" src="assets/certificates/google-cloud-cert.jpg" alt="Google Cloud Prompt Design certificate" loading="lazy">
                     <small>Google Cloud · 2025</small>
+                    <p class="cert-description">Prompt engineering, prompt chaining, LLM integration and AI system design with Vertex AI.</p>
                 </div>
 
             </div>
@@ -1305,6 +1410,11 @@
 
 </section>
 
+
+<div class="certificate-lightbox" id="certificateLightbox" aria-hidden="true">
+    <button class="certificate-lightbox-close" type="button" aria-label="Close certificate preview">&times;</button>
+    <img id="certificateLightboxImage" src="" alt="Certificate preview">
+</div>
 
 <!-- =====================================================
      CONTACT
@@ -1361,6 +1471,19 @@
                         azizizahra6870@gmail.com
 
                     </a>
+
+                    <a href="https://wa.me/989035044816" target="_blank" rel="noopener noreferrer">
+
+                        <span>PHONE</span>
+
+                        +903 504 4816
+
+                    </a>
+
+                    <span class="contact-detail">
+                        <span>LOCATION</span>
+                        Tehran, Iran
+                    </span>
 
 
                     <a href="https://github.com/azizi1991"
@@ -1465,7 +1588,7 @@
                 <a href="#home"
                    class="logo footer-logo">
 
-                    <span>Zahra</span><span class="logo-dot">.</span>dev
+                    <span>Zahra Azizi</span><span class="logo-dot">.</span>dev
 
                 </a>
 
@@ -1494,7 +1617,7 @@
 
             <span>
                 © <span id="currentYear"></span>
-                Zahra Darziyan Azizi
+                Zahra  Azizi
             </span>
 
             <span>
